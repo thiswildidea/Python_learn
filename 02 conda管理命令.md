@@ -1,0 +1,3 @@
+conda -V
+
+conda  list
