@@ -51,6 +51,7 @@ from cls import Student
 
 #类的继承
 # student = Student('王dd',20)
+# student.get_name()
 # print(student.name)
 # print(student.__dict__)
 # print(student.do_homework())

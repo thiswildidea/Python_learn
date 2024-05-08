@@ -46,6 +46,10 @@ class Student(Human):
     def __marking(self,score):
         self.__score = score
         print(self.name+'同学本次考试分数为：'+str(self.__score))
+        
+    def get_name(self):
+        super().get_name()
+        print("111")
     #类方法
     @classmethod
     def plus_sum(cls):
